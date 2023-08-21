@@ -1,0 +1,42 @@
+*{
+    margin : 0;
+    padding : 0;
+}
+
+body{
+background-image: url('window11.jpg');
+background-size: cover;
+}
+
+.taskbar{
+    width: 100%;
+    background-color: aliceblue;
+    position : absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    /* z-index: 120; */
+}
+.startmenu{
+    position: absolute;
+    bottom: -700px;
+    width: 100%;
+    text-align: center;
+    transition: all 0.3s ease-in;
+
+    
+}
+.startmenu img{
+    border-radius: 10px;
+}
+.righttaskbar{
+    justify-self: flex-end; 
+    
+    position: absolute;
+    right: 0;
+    margin: 5px;
+    height: 90%;
+}
+.icons{
+    color: white;
+}
