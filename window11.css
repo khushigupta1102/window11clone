@@ -34,9 +34,13 @@ background-size: cover;
     
     position: absolute;
     right: 0;
-    margin: 5px;
+    margin: 10px;
     height: 90%;
 }
 .icons{
     color: white;
+    flex-direction: row;
+    padding: 10px;
+    width: 20%;
+    margin: 5px;
 }
